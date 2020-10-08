@@ -1,0 +1,40 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: latex
+  name: Latex Math Symbols
+  version: '1.0'
+  author:
+    - slbtty <jiang.zhengchao@outlook.com>
+  description: |
+    Latex Math Symbols Input Method.
+    
+    You have to type "\" first to get symbols.
+    
+    This schema is intended to be used as an addon for other input methods.
+    
+  dependencies:
+
+engine:
+  processors:
+    - speller  # to enable alphabet & initials below.
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - abc_segmentor
+    - fallback_segmentor
+  translators:
+    - table_translator
+
+speller:
+  alphabet: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\'
+  initials: '\'
+  auto_select: true
+
+translator:
+  dictionary: latex
+  prism: latex_symbols
+  enable_sentence: false
+  enable_user_dict: false
