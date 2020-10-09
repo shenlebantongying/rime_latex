@@ -1,0 +1,17 @@
+# encoding: utf-8
+# ref: https://github.com/rime/rime-emoji
+# to be checked
+---
+recipe:
+  Rx: customize
+  args:
+    - schema= luna_pinyin_simp
+  description: >-
+    Customize a input schema to show Latex suggestions
+install_files: >-
+  # latex.dict.yaml 
+  # latex.schema.yaml
+patch_files:
+  ${schema:-luna_pinyin_simp}.custom.yaml:
+    - patch/+:
+        __include: latex:/patch
