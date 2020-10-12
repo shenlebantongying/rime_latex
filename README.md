@@ -1,3 +1,8 @@
+# Plan:
+
+这个输入法是为了和其他的输入法配合使用的。
+这个项目作为 rimebrew “patch” 或者 合并功能的实验品。
+
 # rime_latex
 Difficulty typing mathematical symbols?
 
