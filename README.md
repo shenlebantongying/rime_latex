@@ -1,7 +1,6 @@
-# Plan:
+# TODO：
 
-这个输入法是为了和其他的输入法配合使用的。
-这个项目作为 rimebrew “patch” 或者 合并功能的实验品。
+实现 RIME 的 patch 功能，或者写一个关于如何配合其它输入法的说明。
 
 # rime_latex
 Difficulty typing mathematical symbols?
@@ -22,10 +21,9 @@ https://github.com/moebiuscurve/ibus-table-others/blob/master/tables/latex.txt
 # Plans
 
 + Add some symbols that are missing from standard latex (like degree: U+00B0 °) 
-+ Sanitize the dict more.
++ Sanitize the more.
   + The symbols table should only contains those which are in both unicode & Latex
   + Complete Latex Symbols: <http://tug.ctan.org/info/symbols/comprehensive/symbols-a4.pdf>
   + Unicode <https://en.wikipedia.org/wiki/Mathematical_operators_and_symbols_in_Unicode>
 
 + Fuzzy match?
-
