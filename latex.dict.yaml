@@ -2,8 +2,8 @@
 # encoding: utf-8
 
 ---
-name: latex
-version: "0.1"
+name: LaTeX
+version: "0.2"
 sort: original
 columns:
     - text
@@ -2456,23 +2456,24 @@ $	\mathdollar
 𝟿	\mttnine
 𞻰	\arabicmaj
 𞻱	\arabichad
-⁰   \o0
-¹   \o1
-²   \o2
-³   \o3
-⁴   \o4
-⁵   \o5
-⁶   \o6
-⁷   \o7
-⁸   \o8
-⁹   \o9
-₀   \u0
-₁   \u1
-₂   \u2
-₃   \u3
-₄   \u4
-₅   \u5
-₆   \u6
-₇   \u7
-₈   \u8
-₉   \u9
+⁰	\o0
+¹	\o1
+²	\o2
+³	\o3
+⁴	\o4
+⁵	\o5
+⁶	\o6
+⁷	\o7
+⁸	\o8
+⁹	\o9
+₀	\u0
+₁	\u1
+₂	\u2
+₃	\u3
+₄	\u4
+₅	\u5
+₆	\u6
+₇	\u7
+₈	\u8
+₉	\u9
+°	\degree
