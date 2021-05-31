@@ -1,15 +1,16 @@
-# TODO：
-
-实现 RIME 的 patch 功能，或者写一个关于如何配合其它输入法的说明。
-
 # rime_latex
 Difficulty typing mathematical symbols?
 
 Try Rime-latex for Latex-based Symbols:)
 
-# install & config
 
-TODO
+# RIME_LaTeX's extension to tex symbols
+
+## Number superscript/subscript
+`\o1\u1` (over\under) to type `¹₁`, 
+```
+\u1 ->
+```
 
 # Credits
 
@@ -27,3 +28,7 @@ https://github.com/moebiuscurve/ibus-table-others/blob/master/tables/latex.txt
   + Unicode <https://en.wikipedia.org/wiki/Mathematical_operators_and_symbols_in_Unicode>
 
 + Fuzzy match?
+
+# TODO：
+
+实现 RIME 的 patch 功能，或者写一个关于如何配合其它输入法的说明。
