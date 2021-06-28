@@ -14,6 +14,12 @@ Try Rime-latex for Latex-based Symbols:)
 ```
 ° \degree 
 ```
+### MISC
+```
+→ \to
+⇒ \To
+⇛ \TO
+```
 
 # Credits
 
