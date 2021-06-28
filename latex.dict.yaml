@@ -11,8 +11,6 @@ columns:
 ...
 
 !	\clam
-#	\hash
-#	\octothorpe
 $	\dollar
 %	\percent
 &	\ampersand
@@ -225,8 +223,10 @@ $	\dollar
 ⅉ	\mitBbbj
 ⅊	\PropertyLine
 ⅋	\upand
+←	\<-
 ←	\leftarrow
 ↑	\uparrow
+→	\->
 →	\to
 →	\rightarrow
 ↓	\downarrow
@@ -2456,24 +2456,26 @@ $	\dollar
 𝟿	\mttnine
 𞻰	\arabicmaj
 𞻱	\arabichad
-⁰	\o0
-¹	\o1
-²	\o2
-³	\o3
-⁴	\o4
-⁵	\o5
-⁶	\o6
-⁷	\o7
-⁸	\o8
-⁹	\o9
-₀	\u0
-₁	\u1
-₂	\u2
-₃	\u3
-₄	\u4
-₅	\u5
-₆	\u6
-₇	\u7
-₈	\u8
-₉	\u9
 °	\degree
+
+#	Superscripts/Subscripts
+⁰	^0
+¹	^1
+²	^2
+³	^3
+⁴	^4
+⁵	^5
+⁶	^6
+⁷	^7
+⁸	^8
+⁹	^9
+₀	_0
+₁	_1
+₂	_2
+₃	_3
+₄	_4
+₅	_5
+₆	_6
+₇	_7
+₈	_8
+₉	_9

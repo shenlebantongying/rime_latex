@@ -29,8 +29,8 @@ engine:
     - table_translator
 
 speller:
-  alphabet: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ\'
-  initials: '\'
+  alphabet: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789\^_-><0'
+  initials: '\_^'
   auto_select: true
 
 translator:

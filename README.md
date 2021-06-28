@@ -6,9 +6,9 @@ Try Rime-latex for Latex-based Symbols:)
 ## RIME_LaTeX's extension to tex symbols
 
 ### Number superscript/subscript
-`\o1\u1` (over\under) to type `¹₁`, 
+`^1` and `_1` to type over\under position numbers to type `¹₁`, 
 ```
-¹₁ <- \u1 
+X₁¹ <- ^1 _1 
 ```
 ### Degree
 ```
