@@ -2479,3 +2479,43 @@ $	\dollar
 ₇	_7
 ₈	_8
 ₉	_9
+
+#	Abbreviations
+⟹	\implies
+⟺	\iff
+•	\bullet
+∘	\circ
+□	\square
+■	\blacksquare
+
+#	Small caps: \textsc
+ᴀ	\tsca
+ʙ	\tscb
+ᴄ	\tscc
+ᴅ	\tscd
+ᴇ	\tsce
+ꜰ	\tscf
+ɢ	\tscg
+ʜ	\tsch
+ɪ	\tsci
+ᴊ	\tscj
+ᴋ	\tsck
+ʟ	\tscl
+ᴍ	\tscm
+ɴ	\tscn
+ᴏ	\tsco
+ᴘ	\tscp
+#	Warning: the script \textsc{q} is not supported in many fonts
+ꞯ	\tscq
+ʀ	\tscr
+ꜱ	\tscs
+ᴛ	\tsct
+ᴜ	\tscu
+ᴠ	\tscv
+ᴡ	\tscw
+#	Warning: Unicode does not support \textsc{x}
+ʏ	\tscy
+ᴢ	\tscz
+
+#	Misc
+§	\S
