@@ -2482,11 +2482,15 @@ $	\dollar
 
 #	Abbreviations
 ⟹	\implies
+⟸	\impliedby
 ⟺	\iff
 •	\bullet
 ∘	\circ
 □	\square
 ■	\blacksquare
+¬	\lnot
+∧	\land
+∨	\lor
 
 #	Small caps: \textsc
 ᴀ	\tsca
