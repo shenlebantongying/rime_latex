@@ -29,7 +29,7 @@ engine:
     - table_translator
 
 speller:
-  alphabet: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789\^_-><+-=()'
+  alphabet: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789\^_-><+-=()[]'
   initials: '\_^'
   auto_select: true
 
