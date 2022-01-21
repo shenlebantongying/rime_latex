@@ -572,8 +572,10 @@ $	\dollar
 ⋫	\nvartriangleright
 ⋬	\ntrianglelefteq
 ⋭	\ntrianglerighteq
+…	\ldots
 ⋮	\vdots
 ⋯	\unicodecdots
+⋯	\cdots
 ⋰	\adots
 ⋱	\ddots
 ⋲	\disin
