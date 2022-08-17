@@ -44,7 +44,7 @@ patch:
     tips: latex
 ```
 
-The configuration above allows only latex symbols start with '\\' and without any digits to avoid conflicts.
+The configuration above allows only latex symbols without any digits to avoid conflicts.
 
 ## Credits
 
