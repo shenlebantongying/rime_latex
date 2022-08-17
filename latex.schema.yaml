@@ -4,19 +4,15 @@
 schema:
   schema_id: latex
   name: Latex Math Symbols
-  version: '1.0'
+  version: "1.1"
   author:
     - slbtty <shenlebantongying@gmail.com>
+    - mark <mark@mkmark.net>
   description: |
     Latex Math Symbols Input Method.
-    
-    You have to type '\' first to get symbols.
-    
     This schema is intended to be used as an addon for other input methods.
-    
-  dependencies:
 
-engine:
+engine: 
   processors:
     - speller  # to enable alphabet & initials below.
     - selector
