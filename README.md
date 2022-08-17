@@ -33,7 +33,7 @@ patch:
     - punct_translator
     - r10n_translator
     - reverse_lookup_translator
-  recognizer/patterns/reverse_lookup: '^\\\D+$' # '.*'
+  recognizer/patterns/reverse_lookup: '\D+'
   schema/dependencies:
     - latex
   abc_segmentor/extra_tags:

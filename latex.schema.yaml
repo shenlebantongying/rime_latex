@@ -12,7 +12,7 @@ schema:
     Latex Math Symbols Input Method.
     This schema is intended to be used as an addon for other input methods.
 
-engine: 
+engine:
   processors:
     - speller  # to enable alphabet & initials below.
     - selector
