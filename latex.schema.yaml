@@ -31,6 +31,5 @@ speller:
 
 translator:
   dictionary: latex
-  prism: latex_symbols
   enable_sentence: false
   enable_user_dict: false
