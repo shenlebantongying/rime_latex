@@ -33,7 +33,8 @@ patch:
     - punct_translator
     - r10n_translator
     - reverse_lookup_translator
-  recognizer/patterns/reverse_lookup: '\D+'
+# meaning of the regex: ^ start of line, \\ the starting \, .+ any char any time, $ end 
+  recognizer/patterns/reverse_lookup: '^\\.+$'
   schema/dependencies:
     - latex
   abc_segmentor/extra_tags:
@@ -43,8 +44,6 @@ patch:
     enable_completion: false
     tips: latex
 ```
-
-The configuration above allows only latex symbols without any digits to avoid conflicts.
 
 ## Credits
 

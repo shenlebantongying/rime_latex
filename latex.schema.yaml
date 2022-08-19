@@ -10,6 +10,7 @@ schema:
     - mark <mark@mkmark.net>
   description: |
     Latex Math Symbols Input Method.
+    You have to type '\' first to get symbols.
     This schema is intended to be used as an addon for other input methods.
 
 engine:
