@@ -4,27 +4,6 @@ Difficulty typing mathematical symbols?
 
 Try Rime-latex for Latex-based Symbols:)
 
-## RIME_LaTeX's extension to tex symbols
-
-### superscript/subscript
-
-```
-\^1 \_1 -> X₁¹
-\^a \_b -> Xᵃᵦ
-```
-
-> [Unicode doesn't have a full set of super/sub scripts, you probably should use text styles or markup in rich text, instead.](https://www.unicode.org/faq/ligature_digraph.html#Pf8)
-
-### Degree
-```
-° \degree 
-```
-### MISC
-```
-→ \to
-⇒ \To
-⇛ \TO
-```
 
 ## Use with other schemas
 
@@ -47,6 +26,29 @@ patch:
     enable_completion: false
     tips: latex
 ```
+
+## RIME_LaTeX's extension to tex symbols
+
+### superscript/subscript
+
+```
+\^1 \_1 -> X₁¹
+\^a \_b -> Xᵃᵦ
+```
+
+> [Unicode doesn't have a full set of super/sub scripts, you probably should use text styles or markup in rich text, instead.](https://www.unicode.org/faq/ligature_digraph.html#Pf8)
+
+### Degree
+```
+° \degree 
+```
+### MISC
+```
+→ \to
+⇒ \To
+⇛ \TO
+```
+
 
 ## Credits
 
