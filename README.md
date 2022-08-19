@@ -6,12 +6,15 @@ Try Rime-latex for Latex-based Symbols:)
 
 ## RIME_LaTeX's extension to tex symbols
 
-### Number superscript/subscript
+### superscript/subscript
 
-`^1` and `_1` to type over\under position numbers to type `¹₁`, 
 ```
-X₁¹ <- ^1 _1 
+\^1 \_1 -> X₁¹
+\^a \_b -> Xᵃᵦ
 ```
+
+> [Unicode doesn't have a full set of super/sub scripts, you probably should use text styles or markup in rich text, instead.](https://www.unicode.org/faq/ligature_digraph.html#Pf8)
+
 ### Degree
 ```
 ° \degree 
@@ -33,7 +36,7 @@ patch:
     - punct_translator
     - r10n_translator
     - reverse_lookup_translator
-# meaning of the regex: ^ start of line, \\ the starting \, .+ any char any time, $ end 
+# meaning of the regex: ^ start of line, \\ the starting \, .+ any char 1 or more time, $ end 
   recognizer/patterns/reverse_lookup: '^\\.+$'
   schema/dependencies:
     - latex
