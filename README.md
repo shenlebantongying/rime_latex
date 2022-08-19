@@ -33,6 +33,7 @@ patch:
     - punct_translator
     - r10n_translator
     - reverse_lookup_translator
+# meaning of the regex: ^ start of line, \\ the starting \, .+ any char any time, $ end 
   recognizer/patterns/reverse_lookup: '^\\.+$'
   schema/dependencies:
     - latex
