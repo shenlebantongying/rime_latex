@@ -225,6 +225,7 @@ $	\dollar
 ⅋	\upand
 ←	\<-
 ←	\leftarrow
+←	\gets
 ↑	\uparrow
 →	\->
 →	\to
@@ -435,7 +436,9 @@ $	\dollar
 ≢	\nequiv
 ≣	\Equiv
 ≤	\leq
+≤	\le
 ≥	\geq
+≥	\ge
 ≦	\leqq
 ≧	\geqq
 ≨	\lneqq
