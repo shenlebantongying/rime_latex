@@ -1,13 +1,24 @@
 # RIME_LaTeX
 
-Difficulty typing mathematical symbols?
+Typing LaTeX math symbols in RIME.
 
-Try Rime-latex for Latex-based Symbols:)
+Press `\` key then input latex symbol's name: `\lambda` will automatically become `λ`.
 
+## Use as standalone input method
+
+Copy the `latex.dict.yaml` and `latex.schema.yaml` to rime's config folder.
+
+Add those lines to `default.custom.yaml`
+
+```
+ patch:
+  schema_list:
+    - schema: latex
+```
 
 ## Use with other schemas
 
-For instance, to use with 朙月拼音（·简化字）, in `luna_pinyin.custom.yaml` (`luna_pinyin_simp.custom.yaml`)
+For instance, to use with 朙月拼音（简化字）, in `luna_pinyin.custom.yaml` (`luna_pinyin_simp.custom.yaml`)
 
 ```yaml
 patch:
@@ -46,10 +57,14 @@ patch:
     tips: "[LaTex]"
 ```
 
+Note: due to the complexity of mixing rime schemas, you may need extra efforts to mix RIME_LaTeX with arbitrary other schema.
+
+rime schema's reference: <https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_description.md>
+
+
 ## RIME_LaTeX's extension to tex symbols
 
 ### superscript/subscript
-user type once '\' key and input latex with autocomplete prompt
 ```
 \^1 \_1 -> X₁¹
 \^a \_b -> Xᵃᵦ
@@ -73,17 +88,13 @@ user type once '\' key and input latex with autocomplete prompt
 
 The latex math symbols table sources:
 
-https://github.com/hubutui/fcitx-table-unicode-latex
-https://github.com/moebiuscurve/ibus-table-others/blob/master/tables/latex.txt
+<https://github.com/hubutui/fcitx-table-unicode-latex>
+<https://github.com/moebiuscurve/ibus-table-others/blob/master/tables/latex.txt>
 
-Rime schema description:
-https://github.com/LEOYoon-Tsaw/Rime_collections/blob/master/Rime_description.md
+## HELP WANTED
 
-## Plans
-
-+ Sanitize the more.
-  + The symbols table should only contains those which are in both unicode & Latex
+* Check if all Unicode math symbols are included.
   + Complete Latex Symbols: <http://tug.ctan.org/info/symbols/comprehensive/symbols-a4.pdf>
   + Unicode <https://en.wikipedia.org/wiki/Mathematical_operators_and_symbols_in_Unicode>
 
-+ Fuzzy match?
++ Fuzzy match how??
