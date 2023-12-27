@@ -36,7 +36,7 @@ patch:
 #    "\\": ["、", "＼"]
 
   engine/+:
-    translators/+
+    translators/+:
       - table_translator@latex_input
 
 # meaning of the regex: ^ (start of line), \\(the starting \), .+(any char 1 or more time), $(end)
