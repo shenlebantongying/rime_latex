@@ -35,7 +35,7 @@ patch:
 #  punctuator/full_shape:
 #    "\\": ["、", "＼"]
 
-engine/+:
+  engine/+:
     translators/+
       - table_translator@latex_input
 
