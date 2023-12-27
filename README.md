@@ -35,10 +35,10 @@ patch:
 #  punctuator/full_shape:
 #    "\\": ["、", "＼"]
 
-  engine/translators:
-    - punct_translator
-    - table_translator
-    - table_translator@latex_input
+engine/+:
+    translators/+
+      - table_translator@latex_input
+
 # meaning of the regex: ^ (start of line), \\(the starting \), .+(any char 1 or more time), $(end)
 # first '\\' is recognized as a symbol(half_shape or full_shape). double '\\' make it to be recognized as a pattern
 # translator's prefix will consume one '\\'. so user only type once '\' key
@@ -54,7 +54,7 @@ patch:
     enable_user_dict: true # enable word frequency,  use with user_dict
     user_dict: custom_latex_user # generate a file name custom_latex_user.txt
     db_class: tabledb
-    tips: "[LaTex]"
+    tips: "[LaTeX]"
 ```
 
 Note: due to the complexity of mixing rime schemas, you may need extra efforts to mix RIME_LaTeX with arbitrary other schema.
