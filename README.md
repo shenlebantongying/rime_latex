@@ -41,8 +41,8 @@ patch:
 
 # meaning of the regex: ^ (start of line), \\(the starting \), .+(any char 1 or more time), $(end)
 # first '\\' is recognized as a symbol(half_shape or full_shape). double '\\' make it to be recognized as a pattern
-# translator's prefix will consume one '\\'. so user only type once '\' key
-  "recognizer/patterns/latex_input": "^\\\\.+$"
+# translator's prefix will consume one '\\'. so user only type once '\' key, only recognize uppercase and lowercase letters, so you can use the number keys to select words.
+  "recognizer/patterns/latex_input": "^\\\\[a-zA-Z]+$"
   schema/dependencies/+:
     - latex
   latex_input:
