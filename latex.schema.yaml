@@ -15,6 +15,7 @@ schema:
 
 engine:
   processors:
+    - key_binder  # enable key_binder
     - speller  # to enable alphabet & initials below.
     - selector
     - navigator
@@ -24,6 +25,10 @@ engine:
     - fallback_segmentor
   translators:
     - table_translator
+
+key_binder:
+  import_preset: default
+  # bindings: # Customization
 
 speller:
   alphabet: 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789\^_-><+-=()[]'
